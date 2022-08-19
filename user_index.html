@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>G-TREE</title>
+    <link rel="stylesheet" href="./shared/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body class="gradient3" style="height:100vh">
+    <h1 class="gradient5 p-3 text-center text-dark mb-5">G-TREE</h1>
+    <div class="d-flex justify-content-center mt-5">
+        <div class="p-1 gradient4 rounded w-25">
+            <form method="GET" action="search_be_2.php" class="p-3 gradient2 rounded">
+                <input type="text" name="domain" placeholder="Enter Domain" class="form-control mb-3" required>
+                <input type="submit" value="search" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+    <div class="d-flex mt-5 justify-content-center text-light">
+
+        <form method="POST" action="./index.html" class="p-1 gradient4 rounded get">
+            <input type="submit" class="btn btn-primary" value="Get Your Link Tree">
+        </form>
+    </div>
+</body>
+
+</html>
